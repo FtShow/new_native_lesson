@@ -1,7 +1,11 @@
-let car;
-car = 'bmw'
-function startEngine () {
-    console.log(`start ${car}`)
-}
-car = 'opel'
-startEngine()
+
+
+
+
+let a = 0
+console.log(a)
+console.log(a++)
+console.log(a++)
+console.log(a+1)
+console.log(a+1)
+console.log(a)

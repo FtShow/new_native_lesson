@@ -1,17 +1,30 @@
-const a = () =>{
-    console.log(this)
+
+
+function foo () {
+    this.brand = 'bibika'
+    const car = {
+        brand: 'bmw',
+        showBrand: () => {
+            console.log(this.brand)
+        },
+        showBrand2() {
+        }
+    }
+    car.showBrand()
+    car.showBrand2()
 }
-
-a()
-
-const car = {
-    brand: 'bmw',
-    showBrand: ()=>{
-        console.log(this.brand)
-    },
-    showBrand2 () {
-        console.log(this.brand)
+var length = 4
+function callback () {
+    console.log(this.length)
+}
+const object = {
+    length: 5,
+    method(){
+        arguments[0]()
     }
 }
-car.showBrand()
-car.showBrand2()
+object.method(callback, 2, 6)
+console.log(this.name)
+console.log(this)
+
+

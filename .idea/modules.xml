@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/nativePromise.iml" filepath="$PROJECT_DIR$/.idea/nativePromise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nativeJS.iml" filepath="$PROJECT_DIR$/.idea/nativeJS.iml" />
     </modules>
   </component>
 </project>
